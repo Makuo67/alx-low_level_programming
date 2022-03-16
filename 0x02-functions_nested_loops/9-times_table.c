@@ -18,7 +18,7 @@ for (column = 0; column <= 9; column++)
 {
 product = row * column;
 tens = product / 10;
-ones = product / 10;
+ones = product % 10;
 
 if (column == 0)
 {
@@ -31,7 +31,7 @@ _putchar(' ');
 _putchar(' ');
 _putchar(ones + '0');
 }
-else 
+else
 {
 _putchar(',');
 _putchar(' ');
