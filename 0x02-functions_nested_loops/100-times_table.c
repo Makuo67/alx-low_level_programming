@@ -17,9 +17,10 @@ if (n >= 0 && n < 15)
 {
 for (row = 0; row <= n; row++)
 {
-for (column = 0; row <= n; column++)
+for (column = 0; column <= n; column++)
 {
 product = row * column;
+
 if (column == 0)
 _putchar('0');
 else if (product < 10)
